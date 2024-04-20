@@ -7,8 +7,7 @@ html{
     font-weight: 400;
     font-style: normal;
     overflow-x: hidden;
-    background: #3d1b0e;
-    color: whitesmoke;
+    color: black;
 }
 
 *{
@@ -78,102 +77,66 @@ nav{
 
 .header .bg-img{
     position: absolute ;
-    height: 100%;
-    width: 100%;
+    height: 50%;
+    width: 40%;
     z-index: -1000;
-    opacity:  .3;
-    border-bottom-left-radius: 4rem;
-    border-bottom-right-radius: 4rem;
+    left: 10%;
+    top: 25vh;
 }
 
-.hero-container{
-    display: flex;
-    justify-content: space-around;
-    margin: 2rem 0 2rem 0;
-}
 
-.hero{
-    text-align: center;
-    width: 30%;
-    text-wrap: wrap;
-
-    /* background: black; */
-}
-.hero-img1, .hero-img2{
+.box{
+    height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
+
+}
+.left-box{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.right-box{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
 }
 
-.hero-img1 img{
-    height: 75%;
-    transform: rotate(-20deg);
+.ff-heading{
+    font-size: 59px;
+    margin: 1.3%;
 }
 
-.hero-img2 img{
-    height: 80%;
-    transform: rotate(15deg);
+.ff-tagline{
+    width: 60%;
+    margin: 1.3%;
+    font-size: 25px;
+    text-align: center;
 }
 
-.hero h1{
-    font-family: "Montserrat", sans-serif;
-    font-weight: 800;
-    font-size: 8rem;
+
+.ff-info{
+    width: 60%;
+    margin: 1.3%;
+    font-size: 20px;
+    text-align: justify;
 }
 
-.hero p{
-    margin-top: 1rem;
-}
-
-.hero-tagline{
-    font-size: 2rem;
-}
-.hero-info{
-    font-size: 1rem;
-}
 
 .btns{
     margin: 2rem;
     display: flex;
-    justify-content: space-around;
+    flex-direction: row;
+    justify-content: center;
     align-items: center;
-}
-
-.learn-more{
-  --b: 3px;
-  --s: .45em;
-  --color: #fee6e3;
-  
-  padding: calc(.5em + var(--s)) calc(.9em + var(--s));
-  color: var(--color);
-  --_p: var(--s);
-  background:
-    conic-gradient(from 90deg at var(--b) var(--b),#0000 90deg,var(--color) 0)
-    var(--_p) var(--_p)/calc(100% - var(--b) - 2*var(--_p)) calc(100% - var(--b) - 2*var(--_p));
-  transition: .3s linear, color 0s, background-color 0s;
-  outline: var(--b) solid #0000;
-  outline-offset: .6em;
-  font-size: 1.25rem;
-  font-family: "Kode Mono", monospace;
-
-  border: 0;
-
-  user-select: none;
-  -webkit-user-select: none;
-  touch-action: manipulation;
-
-}
-
-.learn-more:hover,
-.learn-more:focus-visible{
-  --_p: 0px;
-  outline-color: var(--color);
-  outline-offset: .05em;
-}
-
-.learn-more:active {
-  background: var(--color);
-  color: #fff;
 }
 
  /* Styling for the popup */
@@ -230,24 +193,29 @@ nav{
 
 .begin {
   align-items: center;
-  background-color: #fee6e3;
-  border: 2px solid #111;
+  background: #3D8198;
   border-radius: 8px;
   font-family: "Kode Mono", monospace;
-  color: #111;
+  color: white;
   cursor: pointer;
   justify-content: center;
   height: 4rem;
-  padding: 0 2rem;
-  font-size: 2rem;
-  max-width: 100%;
+  padding: 0 1.5rem;
+  font-size: 20px;
+  width: 100%;
   text-decoration: none;
+  margin-left: 10%;
+  border: 0.5px solid black;
+
+
 }
 
 .begin:hover{
-    background: black;
-    color: whitesmoke;
+    background: #B8E0E1;
+    color: black;
     transition: .5s;
+    border: 2px solid #111;
+
 }
 
 #lower-half{
@@ -271,7 +239,7 @@ nav{
 }
 
 .games{
-    background: rgb(160, 85, 48);
+    background: #43365F;
     width: 30vw;
     height: 50vh;
     margin: auto;
@@ -291,8 +259,11 @@ nav{
 }
 
 .games:hover{
-    background: rgb(255, 124, 59);
+    background: #EB6681;
     transition: .5s;
+    color: black;
+    border: 2px solid #111;
+
 }
 
 .games h1{
