@@ -6,7 +6,7 @@
   font-family: Poppins;
   font-size: 1.1rem;
   font-weight: 600;
-  color: black;
+  color: #7c1c0c;
 }
 .containergame {
   display: flex;
@@ -39,23 +39,23 @@ img {
 }
 #sit1,
 #sit13 {
-  background-color: #FFD500 ;
+  background-color: #ff7b00;
 }
 #sit2,
 #sit12 {
-  background-color: #f5e286;
+  background-color: #ff8800;
 }
 #sit3,
 #sit11 {
-  background-color: #fff2b3;
+  background-color: #ff9500;
 }
 #sit4,
 #sit10 {
-  background-color: #ffeecc;
+  background-color: #ffaa00;
 }
 #sit5,
 #sit9 {
-  background-color: rgb(255, 187, 1);
+  background-color: #ffc300;
 }
 #sit8,
 #sit7 {
@@ -78,17 +78,15 @@ img {
   height: 2rem;
   border: none;
   border-radius: 20px;
-  border: 2px solid black;
+  border: 2px solid #7c1c0c;
   transition: 0.5s;
 }
 #opt1:hover,
 #opt2:hover,
 #opt3:hover {
   transform: scale(1.2);
-  background-color: #EB6681;
-  color: whitesmoke;  
-  border: 1px solid black;
-
+  background-color: #7c1c0c;
+  color: ghostwhite;
 }
 .inc_statement {
   padding: 1rem;
@@ -96,7 +94,6 @@ img {
   flex-direction: column;
   align-items: center;
   width: 30%;
-  background-color: aliceblue;
 }
 .buttons {
   display: flex;
@@ -151,7 +148,6 @@ h1 {
   gap: 1rem;
 }
 
-
 .labels, .values{
   font-size: .7rem;
   padding: 0 1rem;
@@ -175,7 +171,7 @@ h1 {
   left: 50%;
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
-  background-color: #d49f02;
+  background-color: #ad522e;
   padding: 5px 40px;
   width: 40vw;
   height: 40vh;
@@ -195,7 +191,7 @@ h1 {
   font-family: Arial, Helvetica, sans-serif;
   border-radius: 5px;
   font-size: 1.1rem;
-  color: black;
+  color: rgb(160, 57, 57);
 }
 #createmodal-savebtn,
 .createmodal-cancel {
@@ -216,7 +212,7 @@ h1 {
 }
 ::placeholder {
   font-weight: 500;
-  color: black;
+  color: #a1402f;
 }
 .goti {
   display: none;
